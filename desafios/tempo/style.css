@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+:root{
+    --browm: #594F2E;
+    --lightbrown: #8C7E54;
+    --ice: #D9D0B4;
+    --lightblack: #262626;
+    --black: #0D0D0D;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: var(--ice);
+    font-family: 'Markazi Text';
+    font-size: 1.5em;
+}
+header{
+    background-color: var(--lightbrown);
+    padding: 15px;
+}
+header > h1{
+    font-family: 'Rakkas';
+    color: var(--lightblack);
+    text-shadow: 1px 3px 2px var(--ice);
+    text-align: center;
+}
+header > p{
+    font-family: 'Protest Strike';
+    font-size: 16px;
+    color: var(--lightblack);
+    text-shadow: 1px 1px 2px var(--ice);
+    text-align: center;
+}
+nav{
+    background-color: var(--lightbrown);
+    border: 1px solid #262626;
+}
+nav > a{
+    color: var(--lightblack);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+a.nav:hover{
+    background-color: #d9d0b449;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+section > h2{
+    background-color: var(--lightblack);
+    color: var(--ice);
+    text-shadow: 3px 3px 2px var(--black);
+    padding: 3px;
+    padding-left: 10px;
+    border-bottom: 1px solid var(--ice);
+}
+section > p{
+    background-color: var(--browm);
+    padding: 5px;
+    padding-left: 10px;
+    line-height: 1em;
+    color: var(--ice);
+    text-shadow: 1px 1px 1px var(--black);
+    box-shadow: 0px 2px 2px var(--lightblack);
+    margin-bottom: 20px;
+}
+div#meio{
+    background-color: var(--lightblack);
+    color: var(--ice);
+    text-shadow: 3px 3px 2px var(--black);
+    padding: 3px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-top: 1px solid var(--ice);
+    box-shadow: 0px 1px 1px black;
+    margin-bottom: 20px;
+}
+img.lv{
+    border-radius: 3px;
+    display: block;
+    margin: auto;
+}
+div#slogan{
+    background-color: var(--browm);
+    color: var(--lightbrown);
+    text-shadow: 1px 1px 1px var(--black);
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 1px 1px black;
+    margin-bottom: 30px;
+}
+aside{
+    background-color: var(--lightbrown);
+    padding: 10px;
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    color: var(--lightblack);
+    font-family: 'Protest Strike';
+    font-size: 16px;
+    text-shadow: 1px 1px 1px var(--ice);
+    border-radius: 2px;
+    box-shadow: 0px 1px 1px var(--lightblack);
+}
+footer{
+    background-color: var(--browm);
+    color: var(--lightbrown);
+    text-shadow: 1px 1px 1px var(--black);
+    font-family: 'Rakkas';
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}

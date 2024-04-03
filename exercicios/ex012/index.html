@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adaptação</title>
+</head>
+<body>
+    <h1>Adaptação de imagem</h1>
+    <p>Abra este site no telefone-celular ou diminua o tamanho da imagem</p>
+
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-d.png" type="image/png">
+        <img src="imagens/foto-l.png" alt="">
+    </picture>
+
+    <hr>
+<h1>Reproduzindo áudio</h1>
+<p>Vamos reproduzir áudios no nosso site.</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+        <p>Infelizmente, esse teu navegador peba não tá rodando o audio paizão <br>
+        <a href="midia/guanacast-33.mp3">Clica ai pra baixar e escutar.</a></p>
+
+    </audio>
+</body>
+</html>
