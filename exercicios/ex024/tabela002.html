@@ -38,132 +38,138 @@
         tbody > tr:nth-child(2n){
             background-color: gray;
         }
+        div#container{
+            
+            overflow-x: auto;
+        }
     </style>
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
 
-    <table>
-        <caption>População das Unidades Federativas </caption>
-        <thead>
-            <th scope="col">Estado</th>
-            <th scope="col" style="width: 50px;">População</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>São Paulo</td>
-                <td class="num">45 919 049</td>
-            </tr>
-            <tr>
-                <td>Minas Gerais</td>
-                <td class="num">21 168 791</td>
-            </tr>
-            <tr>
-                <td>Rio de Janeiro</td>
-                <td class="num">17 264 943</td>
-            </tr>
-            <tr>
-                <td>Bahia</td>
-                <td class="num">14 873 064</td>
-            </tr>
-            <tr>
-                <td>Paraná</td>
-                <td class="num">11 433 967</td>
-            </tr>
-            <tr>
-                <td>Rio grande do Sul</td>
-                <td class="num">11 377 239</td>
-            </tr>
-            <tr>
-                <td>Pernambuco</td>
-                <td class="num">9 557 571</td>
-            </tr>
-            <tr>
-                <td>Ceará</td>
-                <td class="num">9 132 978</td>
-            </tr>
-            <tr>
-                <td>Pará</td>
-                <td class="num">8 121 025</td>
-            </tr>
-            <tr>
-                <td>Santa Catarina</td>
-                <td class="num">7 610 361</td>
-            </tr>
-            <tr>
-                <td>Goiás</td>
-                <td class="num">7 056 495</td>
-            </tr>
-            <tr>
-                <td>Maranhão</td>
-                <td class="num">6 775 805</td>
-            </tr>
-            <tr>
-                <td>Paraíba</td>
-                <td class="num">3 775 805</td>
-            </tr>
-            <tr>
-                <td>Amazonas</td>
-                <td class="num">3 941 613</td>
-            </tr>
-            <tr>
-                <td>Espírito Santo</td>
-                <td class="num">3 833 712</td>
-            </tr>
-            <tr>
-                <td>Mato Grosso</td>
-                <td class="num">3 658 649</td>
-            </tr>
-            <tr>
-                <td>Rio Grande do Norte</td>
-                <td class="num">3 302 729</td>
-            </tr>
-            <tr>
-                <td>Piauí</td>
-                <td class="num">3 271 199</td>
-            </tr>
-            <tr>
-                <td>Alagoas</td>
-                <td class="num">3 127 683</td>
-            </tr>
-            <tr>
-                <td>Distrito Federal</td>
-                <td class="num">2 817 381</td>
-            </tr>
-            <tr>
-                <td>Mato Grosso do Sul</td>
-                <td class="num">2 757 013</td>
-            </tr>
-            <tr>
-                <td>Sergipe</td>
-                <td class="num">2 209 558</td>
-            </tr>
-            <tr>
-                <td>Rondônia</td>
-                <td class="num">1 581 196</td>
-            </tr>
-            <tr>
-                <td>Tocantins</td>
-                <td class="num">1 511 460</td>
-            </tr>
-            <tr>
-                <td>Acre</td>
-                <td class="num">830 018</td>
-            </tr>
-            <tr>
-                <td>Amapá</td>
-                <td class="num">733 759</td>
-            </tr>
-            <tr>
-                <td>Roraima</td>
-                <td class="num">636 707</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <th scope="row">Total de habitantes</th>
-            <td class="num"><strong>210.147.125</strong></td>
-        </tfoot>
-    </table>
+    <div class="container">
+        <table>
+            <caption>População das Unidades Federativas </caption>
+            <thead>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>São Paulo</td>
+                    <td class="num">45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="num">21 168 791</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">17 264 943</td>
+                </tr>
+                <tr>
+                    <td>Bahia</td>
+                    <td class="num">14 873 064</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td class="num">11 433 967</td>
+                </tr>
+                <tr>
+                    <td>Rio grande do Sul</td>
+                    <td class="num">11 377 239</td>
+                </tr>
+                <tr>
+                    <td>Pernambuco</td>
+                    <td class="num">9 557 571</td>
+                </tr>
+                <tr>
+                    <td>Ceará</td>
+                    <td class="num">9 132 978</td>
+                </tr>
+                <tr>
+                    <td>Pará</td>
+                    <td class="num">8 121 025</td>
+                </tr>
+                <tr>
+                    <td>Santa Catarina</td>
+                    <td class="num">7 610 361</td>
+                </tr>
+                <tr>
+                    <td>Goiás</td>
+                    <td class="num">7 056 495</td>
+                </tr>
+                <tr>
+                    <td>Maranhão</td>
+                    <td class="num">6 775 805</td>
+                </tr>
+                <tr>
+                    <td>Paraíba</td>
+                    <td class="num">3 775 805</td>
+                </tr>
+                <tr>
+                    <td>Amazonas</td>
+                    <td class="num">3 941 613</td>
+                </tr>
+                <tr>
+                    <td>Espírito Santo</td>
+                    <td class="num">3 833 712</td>
+                </tr>
+                <tr>
+                    <td>Mato Grosso</td>
+                    <td class="num">3 658 649</td>
+                </tr>
+                <tr>
+                    <td>Rio Grande do Norte</td>
+                    <td class="num">3 302 729</td>
+                </tr>
+                <tr>
+                    <td>Piauí</td>
+                    <td class="num">3 271 199</td>
+                </tr>
+                <tr>
+                    <td>Alagoas</td>
+                    <td class="num">3 127 683</td>
+                </tr>
+                <tr>
+                    <td>Distrito Federal</td>
+                    <td class="num">2 817 381</td>
+                </tr>
+                <tr>
+                    <td>Mato Grosso do Sul</td>
+                    <td class="num">2 757 013</td>
+                </tr>
+                <tr>
+                    <td>Sergipe</td>
+                    <td class="num">2 209 558</td>
+                </tr>
+                <tr>
+                    <td>Rondônia</td>
+                    <td class="num">1 581 196</td>
+                </tr>
+                <tr>
+                    <td>Tocantins</td>
+                    <td class="num">1 511 460</td>
+                </tr>
+                <tr>
+                    <td>Acre</td>
+                    <td class="num">830 018</td>
+                </tr>
+                <tr>
+                    <td>Amapá</td>
+                    <td class="num">733 759</td>
+                </tr>
+                <tr>
+                    <td>Roraima</td>
+                    <td class="num">636 707</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <th scope="row">Total de habitantes</th>
+                <td class="num"><strong>210.147.125</strong></td>
+            </tfoot>
+        </table>
+    </div>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia laboriosam sed accusantium exercitationem est. Voluptas a amet nostrum qui tenetur omnis alias id, maiores soluta eum eveniet facere dolorum! Fugiat! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis, rerum neque quisquam provident reiciendis consectetur nihil libero illum corporis. Deserunt soluta ad nostrum modi veniam officia accusantium distinctio maiores voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda impedit beatae corporis numquam. Molestias officia ipsa unde, eveniet rerum itaque iste fugiat impedit dicta nobis nostrum quam magnam consectetur temporibus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi, a. Cum officiis soluta iusto commodi magni consequatur est id fuga, vel quas repellendus optio illo nostrum, ex sed voluptatum eum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae sunt delectus consequatur. Reiciendis a voluptates qui pariatur dolorem eveniet et ipsum exercitationem aliquid, hic harum, ipsam, nulla sit. Distinctio, eum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ab fugit ducimus vel aut, cum dolore rerum excepturi animi? Aut inventore quibusdam fugiat placeat sapiente adipisci repellendus dignissimos voluptatem suscipit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, suscipit esse est omnis hic veniam culpa repellat! Dolorum nobis repellendus, ad officiis, ducimus architecto, ea voluptate iure obcaecati rem officia. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, sit. Optio fugiat excepturi laborum aliquid! Quaerat aspernatur recusandae distinctio rem, fugiat corporis voluptate corrupti rerum cupiditate tenetur, sint accusantium aperiam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, dignissimos iure accusantium distinctio iste eligendi illo provident magnam ducimus labore ullam quo soluta corporis est fuga beatae molestias sed repellat. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, tempore inventore tenetur et consequatur adipisci delectus veritatis enim facilis commodi distinctio minus voluptatem. Et, nulla? Voluptatibus aut modi consequatur doloremque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam doloribus molestiae cum laboriosam odio asperiores laudantium ex. Nulla architecto ut, excepturi laborum minus repudiandae, nobis veniam, placeat quaerat ad iure. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit labore reiciendis doloribus quis omnis odio tenetur, laboriosam iure repudiandae ad architecto, quibusdam sapiente id. Veritatis numquam in quam tempore vitae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates quidem doloremque voluptatum perferendis iusto harum fuga quibusdam delectus optio inventore quod, obcaecati odit iure omnis, magni placeat amet sint. Reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci facilis necessitatibus et dignissimos earum odio! Placeat ea amet repellendus dolores at, sequi iste autem molestias repellat consequuntur? Autem, quod minus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt praesentium nesciunt sint esse adipisci soluta perferendis ipsa eius dignissimos aspernatur expedita, provident sapiente reprehenderit repellendus quo, autem saepe quod placeat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Non vel quis dicta, perferendis soluta magnam? Est odio commodi doloribus esse consequuntur sequi eius iure voluptatem, voluptates optio deserunt delectus at. Lorem ipsum, dolor sit amet consectetur adipisicing elit. At totam eaque, facilis quos deleniti non optio ut explicabo cumque dolore voluptatum, repudiandae libero rem, culpa qui! Consectetur nihil dicta sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto officia laboriosam quo eligendi assumenda nihil consequuntur neque quam ipsum, nulla ullam libero modi similique vitae quis molestias, ea, maxime earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta fugit deserunt, facere corporis eligendi laboriosam libero repellat praesentium rerum eum odit deleniti vero quisquam ipsum recusandae possimus esse quo voluptates! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi distinctio vel neque quos recusandae beatae harum laudantium veritatis, quod itaque asperiores provident perspiciatis, repellendus voluptatum odit, tempora iure assumenda id! Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati autem molestiae vitae, alias, quo veniam eum dolore, velit minima sunt accusantium deserunt. Voluptatum ab illo quae quia, ipsa pariatur. Error? Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nobis quae voluptatibus eius! Dicta esse aliquam incidunt similique corrupti minus quidem distinctio, ea exercitationem beatae inventore ipsum doloribus harum porro. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam minus quos ex et voluptatem maiores. Voluptas, deleniti. Quaerat quia nobis optio quisquam. Dolores maiores alias, inventore vero possimus doloremque quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptate perferendis facilis debitis labore unde laborum. Laboriosam repudiandae dicta eos eum qui, recusandae vero odit quae modi, facere perferendis vel. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis repellendus doloremque ex repudiandae dolore culpa? Amet, laudantium. Delectus illo, omnis maxime aspernatur sint nobis fuga. Unde aliquam architecto fugit saepe. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, numquam voluptatem totam molestias delectus, distinctio quis labore, fugit perspiciatis modi similique? Maxime inventore aspernatur atque quisquam sed, error incidunt distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium accusamus, consectetur reprehenderit velit eveniet sapiente? Nobis at, exercitationem vero velit harum excepturi, perspiciatis esse delectus quod tempora tenetur reprehenderit ab.</p>
 </body>
 </html>
