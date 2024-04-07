@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+        .cnome{
+            background-color: purple;
+        }
+        .csexo{
+            background-color: crimson;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo" span="2">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Idade</th>
+            <th>Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+    </table>
+</body>
+</html>
