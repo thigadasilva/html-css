@@ -9,9 +9,9 @@
         color: orange;
     }
 </style>
- Curso de HTML5 e CSS3 do Curso em Video
+ Meus repositórios Web.
 
-Estou aprendendo a criar sites e agora vou aprender a gerenciar repositórios.
+ Em constante <strong>evolução.</strong>
 
 <h1>Exemplos de site decentes:</h1>
 
