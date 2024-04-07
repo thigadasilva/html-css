@@ -5,6 +5,9 @@
         color: white;
         font-family: Arial, Helvetica, sans-serif;
     }
+    a{
+        color: orange;
+    }
 </style>
  Curso de HTML5 e CSS3 do Curso em Video
 
