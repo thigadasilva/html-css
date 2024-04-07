@@ -1,4 +1,11 @@
 # html-css
+<style>
+    body{
+        background-color: black;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+</style>
  Curso de HTML5 e CSS3 do Curso em Video
 
 Estou aprendendo a criar sites e agora vou aprender a gerenciar repositórios.
