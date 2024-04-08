@@ -9,7 +9,8 @@
         color: orange;
     }
     img{
-       
+       width:200px;
+       height:200px;
     }
 </style>
  Meus repositórios Web.
