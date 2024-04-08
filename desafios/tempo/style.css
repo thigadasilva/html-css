@@ -76,11 +76,13 @@ div#meio{
     border-top: 1px solid var(--ice);
     box-shadow: 0px 1px 1px black;
     margin-bottom: 20px;
+    
+    text-align: center;
 }
 img.lv{
     border-radius: 3px;
-    display: block;
-    margin: auto;
+   
+    
 }
 div#slogan{
     background-color: var(--browm);
@@ -90,6 +92,7 @@ div#slogan{
     padding: 10px;
     box-shadow: 0px 1px 1px black;
     margin-bottom: 30px;
+    
 }
 aside{
     background-color: var(--lightbrown);
