@@ -14,7 +14,7 @@
 </style>
  Meus repositórios Web.
 
- <img src="eu.jpeg" alt="Thiago da Silva">
+ <img src="eu.png" alt="Thiago da Silva">
 
  Em constante <strong>evolução.</strong>
 
