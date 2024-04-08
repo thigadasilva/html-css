@@ -1,8 +1,8 @@
 # html-css
 <style>
     body{
-        background-color: black;
-        color: white;
+       
+        color: black;
         font-family: Arial, Helvetica, sans-serif;
     }
     a{
