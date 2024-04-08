@@ -9,7 +9,7 @@
         color: orange;
     }
     img{
-        border-radius: 50px;
+       
     }
 </style>
  Meus repositórios Web.
