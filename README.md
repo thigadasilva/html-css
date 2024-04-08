@@ -6,7 +6,7 @@
         font-family: Arial, Helvetica, sans-serif;
     }
     a{
-        color: orange;
+        color: crimson;
     }
     img{
        width:200px;
