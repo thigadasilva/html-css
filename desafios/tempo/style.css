@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap'); /* Rakkas: Para títulos */
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap'); /* Protest Strike: Para o aside */
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap'); /* Markazi Text: Para a fonte principal*/
+
 :root{
     --browm: #594F2E;
     --lightbrown: #8C7E54;
@@ -36,6 +40,7 @@ header > p{
 nav{
     background-color: var(--lightbrown);
     border: 1px solid #262626;
+    text-align: center;
 }
 nav > a{
     color: var(--lightblack);
