@@ -32,6 +32,7 @@ nav > a:hover{
 }
 main{
     background-color: snow;
+    border-radius: 20px;
     padding: 20px;
     margin: auto;
     width: 50%;
