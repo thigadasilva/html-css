@@ -38,3 +38,9 @@ main{
     width: 50%;
     height: 100%;
 }
+div{
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 300px;
+}
