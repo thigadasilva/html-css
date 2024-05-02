@@ -54,7 +54,7 @@ iframe#tela{
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-59%, -50%);
+    transform: translate(-59%, -48%);
     width: 170px;
-    height: 310px;
+    height: 297px;
 }
