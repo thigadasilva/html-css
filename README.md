@@ -23,4 +23,8 @@
 
 <a target="_blank" href="https://thigadasilva.github.io/html-css/desafios/tempo/">Louis Vuitton</a> <br>
 <a target="_blank" href="https://thigadasilva.github.io/html-css/desafios/d010/">Gta San Andreas</a> <br>
+<a target="_blank" href="https://thigadasilva.github.io/html-css/desafios/diogo/">Currículo</a> <br>
+<a target="_blank" href="https://thigadasilva.github.io/html-css/desafios/lucas">Músculos!</a> <br>
+<a target="_blank" href="https://thigadasilva.github.io/html-css/desafios/social">Projeto Social</a> <br>
+
 
