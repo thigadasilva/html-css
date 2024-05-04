@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formss</title>
+</head>
+<body>
+    <h1>Exemplo de forms</h1>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="icor">Cor:</label>
+            <input type="color" name="cor" id="icor">
+        </p>
+        <p>
+            <label for="inivel">Nível de Satisfação:</label>
+            <input type="range" name="nivel" id="inivel" value="1">
+        </p>
+        <p>
+            <label for="ifoto">Foto</label>
+            <input type="file" name="file" id="ifile">
+        </p>
+        <p>
+            <input type="submit" value="ENVIAR">
+            <input type="reset" value="LIMPAR">
+        </p>
+    </form>
+</body>
+</html>
