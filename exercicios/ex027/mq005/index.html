@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diálogo</title>
     <link rel="stylesheet" href="sty/styles.css">
+    <link rel="stylesheet" href="sty/pc.css">
     <script src="https://kit.fontawesome.com/ee647c4fea.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     
     <header>
         <h1>Te mostro como funciona!!</h1>
@@ -31,6 +32,13 @@
         </article>
     </main>
     <script>
+        function mudouTamanho() {
+            if (window.innerwidth = 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
         function clickMenu() {
             if (itens.style.display == 'block') {
                 itens.style.display = 'none'
