@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="sty/all.css" media="all">
+    <link rel="stylesheet" href="sty/mediaquery.css" media="screen">
+    <script src="https://kit.fontawesome.com/ee647c4fea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <main>
+            <div>
+                <form action="cadastro.php" method="post">
+                    <fieldset>
+                        <legend>
+                            <h1>Tela de Cadastro</h1> <br>
+                            <p id="plegend">Seja bem-vindo ao nosso site, realize o seu cadastro!</p>
+                        </legend>
+                        <p>
+                            
+                            <label for="inome"><i class="fa-solid fa-plus"></i></label>
+                            <input type="text" name="nome" id="inome" required placeholder="Nome completo">
+                        </p>
+                        <p>
+                            <label for="imail"><i class="fa-solid fa-plus"></i></label>
+                           
+                            <input type="email" name="email" id="imail" required placeholder="Endereço de e-mail">
+                        </p>
+            
+                        <p id="seenha">
+                            <label for="isenha"><i class="fa-solid fa-plus"></i></label>
+                            
+
+                            <input type="password" name="senha" id="isenha" required placeholder="Senha" minlength="8" maxlength="13">
+                        </p>
+                        <p>
+                            <input class="send" id="submit" type="submit" value="ENVIAR">
+                            <input class="send" id="reset" type="reset" value="LIMPAR🗑️"> 
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+        </main>
+</body>
+</html>
