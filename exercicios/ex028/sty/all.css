@@ -10,22 +10,21 @@
 body {
     background-image: linear-gradient(black, black, rgba(73, 10, 10, 0.908));
     background-attachment: fixed;
-    
 }
 main {
-    
+    position: relative;
     padding: 20px;
-    width: 70vw;
-    height: 270px;
-    
-    margin: auto;
+    width: 100vw;
+    height: 100vh;
     border-radius: 20px;
 }
 div {
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    padding-right: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 420px;
+    height: 270px;
 }
 legend{
     margin-bottom: 10px;
