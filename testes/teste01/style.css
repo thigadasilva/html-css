@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: cursive;
+    font-size: 36px;
+    background-color: grey;
+    padding: 10px;
+}
