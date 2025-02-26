@@ -1,18 +1,5 @@
 # html-css
-<style>
-    body{
-       
-        color: black;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    a{
-        color: crimson;
-    }
-    img{
-       width:200px;
-       height:200px;
-    }
-</style>
+
  Meus repositórios Web.
 
  <img src="eu.png" alt="Thiago da Silva">
